@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1284400a-e94d-4767-876a-2a77f5a6245c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{55d994d6-1670-43a2-bb35-04317f30ca31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittest">
+      <UniqueIdentifier>{be6faf6c-47b0-4b35-a70a-33a430653620}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Printf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="unittest\test.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="unittest\main.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Printf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="unittest\catch.hpp">
+      <Filter>unittest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
