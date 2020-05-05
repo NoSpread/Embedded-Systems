@@ -4,7 +4,7 @@
 TEST_CASE("Testing PoolAllocation", "[TESTING]") {
 
 	//ALLOC
-    SECTION("size smaller than blocksize returns nullptr") {
+    SECTION("size larger than blocksize returns nullptr") {
         CREATE(allocator, 2, 4);
 
         REQUIRE(allocator.Allocate(5) == nullptr);
